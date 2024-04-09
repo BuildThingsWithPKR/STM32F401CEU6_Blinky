@@ -36,7 +36,7 @@ Change the project properties to generate .bin and .hex code for flashing to MCU
 
 
 
-
+###################################################################################
 /* USER CODE BEGIN 2 */
   HAL_GPIO_WritePin(STATUS_GPIO_Port, STATUS_Pin, GPIO_PIN_SET);
   	HAL_Delay(2);
@@ -54,3 +54,4 @@ Change the project properties to generate .bin and .hex code for flashing to MCU
 	  HAL_Delay(1000);
   }
   /* USER CODE END 3 */
+###################################################################################
